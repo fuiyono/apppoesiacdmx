@@ -1,6 +1,6 @@
 {
   "name": "poesia",
-  "app_id": "",
+  "app_id": "8592d69f",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
