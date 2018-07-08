@@ -1,7 +1,7 @@
 export interface Poeta {
   nombre: string;
   imagen: string;
-  audio: string;
+  origen: string;
   duracion: number;
   reproduciendo: boolean;
 }

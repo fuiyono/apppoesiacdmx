@@ -1,100 +1,101 @@
 
 export const POETAS = [
+
       {
-        nombre: "Brennan",
+        nombre: "Sujata Bhatt",
+        imagen: "assets/poetas/sujata.jpg",
+        origen: "(India)",
+        duracion: 5,
+        reproduciendo: false
+      },
+      {
+        nombre: "Michael Brennan",
         imagen: "assets/poetas/brennan.jpg",
-        audio: "assets/sonidos/caballo.mp3",
+        origen: "(Australia)",
         duracion: 4,
         reproduciendo: false
       },
       {
-        nombre: "Efe",
+        nombre: "Efe Duyan",
         imagen: "assets/poetas/efe.jpg",
-        audio: "assets/sonidos/cabra.wav",
+        origen: "(Turquía)",
         duracion: 4,
         reproduciendo: false
       },
       {
-        nombre: "Jamas Byrne",
+        nombre: "James Byrne",
         imagen: "assets/poetas/byrne.jpg",
-        audio: "assets/sonidos/cerdo.wav",
+        origen: "(Inglaterra)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Ko",
+        nombre: "Ko Un",
         imagen: "assets/poetas/ko.jpg",
-        audio: "assets/sonidos/gallo.mp3",
+        origen: "(Corea del Sur)",
         duracion: 4,
         reproduciendo: false
       },
       {
         nombre: "Michael Augustin",
         imagen: "assets/poetas/augustin.jpg",
-        audio: "assets/sonidos/mono.mp3",
+        origen: "(Alemania)",
         duracion: 8,
         reproduciendo: false
       },
       {
-        nombre: "Sujata",
-        imagen: "assets/poetas/sujata.jpg",
-        audio: "assets/sonidos/perro.mp3",
-        duracion: 5,
-        reproduciendo: false
-      },
-      {
-        nombre: "Uchechi",
+        nombre: "Uchechi Kalu",
         imagen: "assets/poetas/uchechi.jpg",
-        audio: "assets/sonidos/serpiente.mp3",
+        origen: "(Nigeria)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Zapata",
+        nombre: "Miguel Ángel Zapata",
         imagen: "assets/poetas/zapata.png",
-        audio: "assets/sonidos/tigre.mp3",
+        origen: "(Perú)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Bas",
+        nombre: "Bas Kwakman",
         imagen: "assets/poetas/Bas.png",
-        audio: "assets/sonidos/tigre.mp3",
+        origen: "(Holanda)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Paura",
+        nombre: "Paura Rodríguez Leytón",
         imagen: "assets/poetas/paura.jpg",
-        audio: "assets/sonidos/tigre.mp3",
+        origen: "(Bolivia)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Solinas",
+        nombre: "Enrique Solinas",
         imagen: "assets/poetas/Solinas.png",
-        audio: "assets/sonidos/tigre.mp3",
+        origen: "(Argentina)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Paxe",
+        nombre: "Abreu Paxe",
         imagen: "assets/poetas/paxe.png",
-        audio: "assets/sonidos/tigre.mp3",
+        origen: "(Angola)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Nii Ayikwei Parkes",
+        nombre: "Nii Parkes",
         imagen: "assets/poetas/parkes.jpg",
-        audio: "assets/sonidos/tigre.mp3",
+        origen: "(Ghana)",
         duracion: 2,
         reproduciendo: false
       },
       {
-        nombre: "Sasha-Pimentel",
+        nombre: "Sasha Pimentel",
         imagen: "assets/poetas/pimentel.jpg",
-        audio: "assets/sonidos/tigre.mp3",
+        origen: "(Filipinas)",
         duracion: 2,
         reproduciendo: false
       }

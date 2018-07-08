@@ -8,27 +8,32 @@
 </ion-header>
 
 <ion-content class="card-background-page">
-  <ion-card>
-      <img src="../assets/sedes/estanquillo.png"/>
-      <div class="card-title">20/07/2018</div>
-      <div class="card-subtitle">Ver</div>
-    </ion-card>
-
+  <ion-item block [navPush] = "dia1Page">
+      <ion-card>
+          <img src="../assets/sedes/estanquillo.png"/>
+          <div class="card-title">20/07/2018</div>
+          <div class="card-subtitle">Ver</div>
+      </ion-card>
+ </ion-item>
+ <ion-item block [navPush] = "dia2Page">
     <ion-card>
       <img src="../assets/sedes/estanquillo.png"/>
       <div class="card-title">21/07/2018</div>
       <div class="card-subtitle">Ver</div>
     </ion-card>
-
+</ion-item>
+<ion-item block [navPush] = "dia3Page">
     <ion-card>
       <img src="../assets/sedes/estanquillo.png"/>
       <div class="card-title">22/07/2018</div>
       <div class="card-subtitle">Ver</div>
     </ion-card>
-
+</ion-item>
+<ion-item block [navPush] = "dia4Page">
     <ion-card>
       <img src="../assets/sedes/estanquillo.png"/>
       <div class="card-title">23/07/2018</div>
       <div class="card-subtitle">Ver</div>
     </ion-card>
+</ion-item>
 </ion-content>

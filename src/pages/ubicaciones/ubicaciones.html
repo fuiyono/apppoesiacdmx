@@ -1,18 +1,103 @@
-<!--
-  Generated template for the UbicacionesPage page.
-
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
-
-  <ion-navbar>
-    <ion-title>ubicaciones</ion-title>
+  <ion-navbar color="circulo">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>SEDES </ion-title>
   </ion-navbar>
-
 </ion-header>
 
 
 <ion-content padding>
+  <ion-card [navPush]="estanquillo">
 
+      <img src="assets/imagenes/mestanquillo.png">
+      <ion-fab right top>
+        <button ion-fab>
+          <ion-icon name="pin"></ion-icon>
+        </button>
+      </ion-fab>
+
+      <ion-item  >
+        <ion-icon name="pin" item-left large></ion-icon>
+        <h2>Museo del Estanquillo</h2>
+        <p>Isabel La Católica 26, Cuauhtémoc, Centro, 06000 Ciudad de México, CDMX</p>
+      </ion-item>
+
+
+    </ion-card>
+
+    <ion-card [navPush]="bellas">
+
+      <img src="assets/imagenes/cultura.png">
+      <ion-fab right top>
+        <button ion-fab>
+          <ion-icon name="pin"></ion-icon>
+        </button>
+      </ion-fab>
+
+
+
+        <ion-item>
+          <ion-icon name="pin" item-left large></ion-icon>
+          <h2>Centro Cultural Digital</h2>
+          <p>Paseo de Reforma s/n Esquina Lieja, Cuauhtemoc, Juárez, CDMX</p>
+        </ion-item>
+
+      </ion-card>
+
+        <ion-card [navPush]="academia">
+
+          <img src="assets/imagenes/macademia.png">
+          <ion-fab right top>
+            <button ion-fab>
+              <ion-icon name="pin"></ion-icon>
+            </button>
+          </ion-fab>
+
+        <ion-item>
+          <ion-icon name="pin" item-left large></ion-icon>
+          <h2>Academia de San Carlos </h2>
+          <p>La Academia 22, Centro Histórico, Centro, 06060 Cuauhtémoc, CDMX</p>
+        </ion-item>
+
+      </ion-card>
+
+        <ion-card [navPush]="antiguo">
+
+          <img src="assets/imagenes/antiguo.png">
+          <ion-fab right top>
+            <button ion-fab>
+              <ion-icon name="pin"></ion-icon>
+            </button>
+          </ion-fab>
+
+          <ion-item>
+            <ion-icon name="pin" item-left large></ion-icon>
+            <h2>Antiguo Colegio de San Ildefonso</h2>
+            <p>Justo Sierra 16, Centro Histórico, Centro, 06020</p>
+          </ion-item>
+
+
+
+    </ion-card>
+
+    <ion-card [navPush]="biblioteca">
+
+      <img src="assets/imagenes/biblioteca.png">
+      <ion-fab right top>
+        <button ion-fab>
+          <ion-icon name="pin"></ion-icon>
+        </button>
+      </ion-fab>
+
+      <ion-item>
+        <ion-icon name="pin" item-left large></ion-icon>
+        <h2>Biblioteca de México</h2>
+        <p>Tolsa 4, Cuauhtémoc, Centro, 06040 Ciudad de México, CDMX</p>
+      </ion-item>
+
+
+
+  </ion-card>
 </ion-content>

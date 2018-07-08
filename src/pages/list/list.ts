@@ -15,5 +15,8 @@ export class ListPage {
 
       this.poetas = POETAS.splice(0);
 
+  
+
+
     }
 }
