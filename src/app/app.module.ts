@@ -9,11 +9,18 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
+import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page } from "../pages/index.paginas";
+
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    UbicacionesPage,
+    Dia1Page,
+    Dia2Page,
+    Dia3Page,
+    Dia4Page
   ],
   imports: [
     BrowserModule,
@@ -23,7 +30,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    UbicacionesPage,
+    Dia1Page,
+    Dia2Page,
+    Dia3Page,
+    Dia4Page
   ],
   providers: [
     StatusBar,
