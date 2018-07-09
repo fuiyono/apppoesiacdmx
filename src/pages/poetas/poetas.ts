@@ -57,74 +57,75 @@ export class PoetasPage {
     reproduciendo: false
   },
   {
-    nombre: "Michael Brennan",
-    imagen: "assets/poetas/brennan.jpg",
-    origen: "(Australia)",
-    semblanza: "",
-    reproduciendo: false
-  },
-  {
-    nombre: "Uchechi Kalu",
-    imagen: "assets/poetas/uchechi.jpg",
-    origen: "(Nigeria)",
-    semblanza: "",
-    foto: "assets/foto/",
-    reproduciendo: false
-  },
-  {
-    nombre: "Miguel Ángel Zapata",
-    imagen: "assets/poetas/zapata.png",
-    origen: "(Perú)",
-    semblanza: "",
-    foto: "assets/foto/",
-    reproduciendo: false
-  },
-  {
     nombre: "Bas Kwakman",
     imagen: "assets/poetas/Bas.png",
     origen: "(Holanda)",
-    semblanza: "",
-    foto: "assets/foto/",
-    reproduciendo: false
-  },
-  {
-    nombre: "Paura Rodríguez Leytón",
-    imagen: "assets/poetas/paura.jpg",
-    origen: "(Bolivia)",
-    semblanza: "",
-    foto: "assets/foto/",
-    reproduciendo: false
-  },
-  {
-    nombre: "Enrique Solinas",
-    imagen: "assets/poetas/Solinas.png",
-    origen: "(Argentina)",
-    semblanza: "",
-    foto: "assets/foto/",
-    reproduciendo: false
-  },
-  {
-    nombre: "Abreu Paxe",
-    imagen: "assets/poetas/paxe.png",
-    origen: "(Angola)",
-    semblanza: "",
-    foto: "assets/foto/",
+    semblanza: "Nació en 1964. Poeta, editor y artista visual holandés. Es director del Director del Festival Internacional de Poesía de Rotterdam, uno de los más aclamados festivales del mundo. Es editor del colectivo editorial Poetry International Web. Círculo de Poesía Ediciones junto a Visor Libros México acaban de publicar su libro: Historias de habitaciones de Hotel (2018). ",
+    foto: "assets/foto/Bas.png",
     reproduciendo: false
   },
   {
     nombre: "Nii Parkes",
     imagen: "assets/poetas/parkes.jpg",
     origen: "(Ghana)",
-    semblanza: "",
-    foto: "assets/foto/",
+    semblanza: "Nacido en 1974 en el Reino Unido, pero hijo de padres ghaneses y criado en Ghana, forma parte de la punta de lanza de la nueva poesía africana. Es escritor, poeta y comentador sociocultural. En 2014 en el marco del festival Hay y del proyecto Africa39, fue nombrado como uno de los 39 escritores del África subsahariana menores de cuarenta años de mayor relevancia. En 2007 fue galardonado con el Premio nacional ACRAG de Ghana por su obra poética y su compromiso con la literatura. Su último libro, titulado The makings of You, apareció en Peepal Tree Press en 2010.",
+    foto: "assets/foto/parkes.jpg",
+    reproduciendo: false
+  },
+  {
+    nombre: "Abreu Paxe",
+    imagen: "assets/poetas/paxe.png",
+    origen: "(Angola)",
+    semblanza: "Nació en el Valle de Loge, municipio Bembe, provincia de Uíge. Se graduó en el Instituto de Ciencias de la Educación (CINE), en Luanda, en la especialidad en lengua portuguesa. Es miembro de la Unión de Escritores Angoleños (UEA). Es profesor de literatura angoleña en el Instituto de Ciencias de la Educación (CINE) de la Universidad Agostinho Neto. Figura en varias revistas y antologías. Entre sus obras publicadas se encuentran A chave no repouso da porta (2003), O vento fede de luz (2007). Fue galardonado con el Premio Literario António Jacinto con su obra A chave no repouso da porta.",
+    foto: "assets/foto/paxe.png",
     reproduciendo: false
   },
   {
     nombre: "Sasha Pimentel",
     imagen: "assets/poetas/pimentel.jpg",
     origen: "(Filipinas)",
-    semblanza: "",
-    foto: "assets/foto/",
+    semblanza: "Nació en Manila, en las Islas Filipinas y se crio en los Estados Unidos y en Arabia Saudita. Want of Water: And Other Poems fue seleccionado por Gregory Pardlo como ganador de las National Poetry Series (EEUU) en 2016. También es la autora de Insides She Swallowed (West End Press, 2010), y ganadora de la American Book Award en el 2011. Actualmente es profesora asociada del Departamento de Creación Literaria en la Universidad de Texas en El Paso.",
+    foto: "assets/foto/pimentel.jpg",
+    reproduciendo: false
+  },
+  {
+    nombre: "Paura Rodríguez Leytón",
+    imagen: "assets/poetas/paura.jpg",
+    origen: "(Bolivia)",
+    semblanza: "Nació en 1973. Poeta y periodista boliviana. Círculo de Poesía Ediciones acaba de publicar su más reciente libro Instante claro (2018). Entre su otros libros destaca Del Árbol y la arcilla azul azul (1989); Ritos de viaje (2002, 2007); Pez de Piedra (2007); Como monedas viejas sobre la tierra (2012) y Deshilvanando el misterio de la hierba (2014). Coexistencia, disco de poemas musicalizados (2016). Con Ritos de viaje obtuvo el Premio Nacional de Poesía convocado por el Gobierno Municipal de Sucre (1999). Su poema “Te atribuyo el torrente de mi sangre” mereció el segundo Premio Internacional César Vallejo de la Casa del Poeta Peruano en Londres (2006). Poemas suyos han sido traducidos 16 idiomas. Su libro Pequeñas mudanzas obtuvo el Accésit del Premio Internacional de Poesía Pilar Fernández Labrador en Salamanca, en 2017. En 2013, la Unión Boliviana de Clubes del Libro premió su aporte literario con una Medalla al Mérito",
+    foto: "assets/foto/paura.jpg",
+    reproduciendo: false
+  },
+  {
+    nombre: "Enrique Solinas",
+    imagen: "assets/poetas/Solinas.png",
+    origen: "(Argentina)",
+    semblanza: "Nació en Buenos Aires en 1969. Poeta, narrador, traductor, crítico literario y periodista cultural. Ha recibido distinciones como el primer Premio Rotary Club Bienio 1990/1991, primer Premio Nacional Iniciación Bienio 1992/1993, de la Secretaría de Cultura de la Nación, el primer Premio Estímulo a la Creación año 2000 de la Secretaría de Cultura de la Nación. Entre sus libros destacan Signos oscuros (1995), El gruñido (1997), El lugar del principio (1998), Jardín en movimiento (2003), Noche de San Juan (2008) y El gruñido y otros poemas (2011).",
+    foto: "assets/foto/Solinas.png",
+    reproduciendo: false
+  },
+  {
+    nombre: "Miguel Ángel Zapata",
+    imagen: "assets/poetas/zapata.png",
+    origen: "(Perú)",
+    semblanza: "Nació en Piura, Perú en 1955. Poeta, ensayista y profesor universitario. Actualmente es profesor principal de literaturas hispánicas en la Universidad de Hofstra, Nueva York. Entre sus libros destacan Escribir bajo el polvo (2000), Cuervos (2003), El cielo que me escribe (2002, 2005), Un pino me habla de la lluvia (2007). Su poesía ha sido traducida al inglés, francés, portugués, árabe e italiano.",
+    foto: "assets/foto/Zapata.png",
+    reproduciendo: false
+  },
+  {
+    nombre: "Uchechi Kalu",
+    imagen: "assets/poetas/uchechi.jpg",
+    origen: "(Nigeria)",
+    semblanza: "Nació en Nigeria. Es poeta, activista y profesora universitaria. Estudió Escritura Creativa en UC Berkeley. Su obra ha aparecido en diversas antologías y ha participado en distintos festivales. En 2006 publicó su primer libro Flowers Blooming Against A Bruised Grey Sky, con el cual fue nominada al Northern California Book Award.",
+    foto: "assets/foto/uchechi.jpg",
+    reproduciendo: false
+  },
+  {
+    nombre: "Michael Brennan",
+    imagen: "assets/poetas/brennan.jpg",
+    origen: "(Australia)",
+    semblanza: "Nació en Sydney en 1973. Poeta, editor y académico. Es director de la prestigiosa editorial Vagabond Press. Ha merecido distintas distinciones como el Mary Gilmore Award, el William Baylebridge Award y el Grace Leven Prize. Es autor de libros como The Imageless World (2003), Unanimous Night (2008), Autoethnographic (2012) y The earth here (2018). Su poesía ha sido traducida al francés, español, italiano, japonés, chino y vietnamita. Actualmente radica en Tokio.",
+    foto: "assets/foto/brennan.jpg",
     reproduciendo: false
   }
 ];
