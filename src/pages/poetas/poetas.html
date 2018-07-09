@@ -7,15 +7,13 @@
   </ion-navbar>
 </ion-header>
 
-
 <ion-content padding>
-  <ion-list>
 
-    <ion-item *ngFor="let poeta of poetas"
-              >
+  <ion-list>
+    <ion-item *ngFor="let poeta of poetas">
               <ion-thumbnail item-left (click)="irDpoetas( poeta )">
-                  <img src="{{ poeta.imagen}}">
-                </ion-thumbnail>
+              <img src="{{ poeta.imagen}}">
+              </ion-thumbnail>
       <h2 (click)="irDpoetas( poeta )"><strong>{{ poeta.nombre }}</strong> </h2>
       <h3 (click)="irDpoetas( poeta )"> {{ poeta.origen }}</h3>
       <ion-icon name="arrow-forward" item-right (click)="irDpoetas( poeta )"></ion-icon>
