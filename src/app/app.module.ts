@@ -9,7 +9,7 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, DpoetasPage } from "../pages/index.paginas";
+import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, DpoetasPage, PoetasPage } from "../pages/index.paginas";
 
 @NgModule({
   declarations: [
@@ -21,7 +21,8 @@ import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, DpoetasPage } 
     Dia2Page,
     Dia3Page,
     Dia4Page,
-    DpoetasPage
+    DpoetasPage,
+    PoetasPage
   ],
   imports: [
     BrowserModule,
@@ -37,7 +38,8 @@ import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, DpoetasPage } 
     Dia2Page,
     Dia3Page,
     Dia4Page,
-    DpoetasPage
+    DpoetasPage,
+    PoetasPage
   ],
   providers: [
     StatusBar,

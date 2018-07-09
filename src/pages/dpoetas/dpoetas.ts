@@ -15,10 +15,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DpoetasPage {
 
-  
+  poeta:any = {};
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    console.log( navParams );
+    this.poeta =this.navParams.get("poeta");
   }
+
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DpoetasPage');

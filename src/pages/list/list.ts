@@ -3,7 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 
 import { POETAS } from "../../data/data.poetas";
 import { Poeta } from "../../interfaces/poeta.interface";
-
+import { DpoetasPage } from "../dpoetas/dpoetas";
 @Component({
   selector: 'page-list',
   templateUrl: 'list.html'
@@ -15,7 +15,6 @@ export class ListPage {
 
       this.poetas = POETAS.splice(0);
 
-  
 
 
     }
