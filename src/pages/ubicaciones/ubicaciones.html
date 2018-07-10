@@ -35,7 +35,7 @@
 
         <ion-item>
           <ion-icon name="pin" item-left large></ion-icon>
-          <h2>Centro Cultural Digital</h2>
+          <h2>Claustro de Sor Juana</h2>
           <p>Paseo de Reforma s/n Esquina Lieja, Cuauhtemoc, Juárez, CDMX</p>
         </ion-item>
 
@@ -51,7 +51,7 @@
 
         <ion-item>
           <ion-icon name="pin" item-left large></ion-icon>
-          <h2>Academia de San Carlos </h2>
+          <h2>Centro de Creación Literaria Xavier Villaurrutia </h2>
           <p>La Academia 22, Centro Histórico, Centro, 06060 Cuauhtémoc, CDMX</p>
         </ion-item>
 
@@ -67,7 +67,7 @@
 
           <ion-item>
             <ion-icon name="pin" item-left large></ion-icon>
-            <h2>Antiguo Colegio de San Ildefonso</h2>
+            <h2>Museo De La Ciudad De México</h2>
             <p>Justo Sierra 16, Centro Histórico, Centro, 06020</p>
           </ion-item>
 
@@ -82,11 +82,26 @@
 
       <ion-item>
         <ion-icon name="pin" item-left large></ion-icon>
-        <h2>Biblioteca de México</h2>
+        <h2>Estación del Metro Chabacano</h2>
         <p>Tolsa 4, Cuauhtémoc, Centro, 06040 Ciudad de México, CDMX</p>
       </ion-item>
 
+  </ion-card>
 
+  <ion-card [navPush]="biblioteca">
+    <ion-fab right top>
+      <button ion-fab>
+        <ion-icon name="pin"></ion-icon>
+      </button>
+    </ion-fab>
+
+    <ion-item>
+      <ion-icon name="pin" item-left large></ion-icon>
+      <h2>Parque México | Foro Lindbergh</h2>
+      <p>Tolsa 4, Cuauhtémoc, Centro, 06040 Ciudad de México, CDMX</p>
+    </ion-item>
 
   </ion-card>
+
+
 </ion-content>

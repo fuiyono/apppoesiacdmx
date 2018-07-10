@@ -43,7 +43,7 @@ export class PoetasPage {
   {
     nombre: "James Byrne",
     imagen: "assets/poetas/byrne.jpg",
-    origen: "(Grab Bretaña)",
+    origen: "(Gran Bretaña)",
     semblanza: "Nació en Buckinghamshire, Gran Bretaña en 1977. Poeta, traductor, editor y profesor universitario. Maestría en Escritura Creativa por la Universidad de Nueva York con la prestigiosa beca Stein. Su primer poemario, Passages of Time (2003), lo ubicó en la vanguardia de la nueva poesía inglesa. A ese libro le siguieron Blood/Sugar (2009), Everything Broken Up Dances (2015) y White Coins (2015). Coeditor de la antología que definió a su generación, Voice Recognition: 21 Poets for the 21st Century (2009). Co-traductor de la primera antología de la poesía birmana publicada en Occidente, Bones Will Crow (2012). Sus poemas han sido traducidos a varios idiomas, y una antología suya se publicó en Serbia. Fue poeta en Residencia en Clare Hall, University of Cambridge (el primero después de Joseph Brodsky), y en la actualidad enseña poesía en Edge Hill University. Dirige la prestigiosa revista de poesía The Wolf.",
     foto: "assets/foto/byrne.jpg",
     reproduciendo: false

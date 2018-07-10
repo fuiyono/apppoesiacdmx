@@ -5,7 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, PoetasPage } from "../pages/index.paginas";
+import { UbicacionesPage, PoetasPage, RedesPage } from "../pages/index.paginas";
 
 @Component({
   templateUrl: 'app.html'
@@ -24,7 +24,8 @@ export class MyApp {
     this.pages = [
       { title: 'PROGRAMA', component: HomePage },
       { title: 'POETAS', component: PoetasPage },
-      { title: 'SEDES', component: UbicacionesPage }
+      { title: 'SEDES', component: UbicacionesPage },
+      { title: 'RRSS', component: RedesPage }
     ];
 
   }
