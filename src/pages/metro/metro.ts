@@ -14,12 +14,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'metro.html',
 })
 export class MetroPage {
+  lat: number;
+  lng: number;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MetroPage');
-  }
+constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  this.lat = 19.4084827;
+  this.lng = -99.1337907;
+}
 
 }

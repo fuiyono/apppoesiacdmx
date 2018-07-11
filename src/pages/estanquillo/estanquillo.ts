@@ -15,11 +15,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class EstanquilloPage {
 
+    lat: number;
+    lng: number;
+
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+    this.lat = 19.4332691;
+    this.lng = -99.1362302;
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad EstanquilloPage');
-  }
+
 
 }

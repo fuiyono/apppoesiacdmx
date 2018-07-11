@@ -14,12 +14,13 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'creacion.html',
 })
 export class CreacionPage {
+  lat: number;
+  lng: number;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CreacionPage');
+    this.lat = 19.4121519;
+    this.lng = -99.172378;
   }
 
 }

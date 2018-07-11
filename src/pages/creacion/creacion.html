@@ -6,13 +6,15 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>creacion</ion-title>
+  <ion-navbar color="circulo">
+    <ion-title>Xavier Villaurrutia</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content>
+  <agm-map [latitude]="lat" [longitude]="lng" [zoom]="18">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
 </ion-content>

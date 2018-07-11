@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the ClaustroPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+
 
 @IonicPage()
 @Component({
@@ -15,11 +10,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ClaustroPage {
 
+  lat: number;
+  lng: number;
+  
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+    this.lat = 19.4267285;
+    this.lng = -99.1367785;
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ClaustroPage');
-  }
+
 
 }

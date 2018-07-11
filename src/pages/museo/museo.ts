@@ -14,12 +14,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'museo.html',
 })
 export class MuseoPage {
+  lat: number;
+  lng: number;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MuseoPage');
-  }
+constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  this.lat = 19.4291853;
+  this.lng = -99.1325173;
+}
 
 }

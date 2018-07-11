@@ -9,7 +9,10 @@ import { ListPage } from '../pages/list/list';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, Dia5Page, DpoetasPage, PoetasPage, RedesPage } from "../pages/index.paginas";
+import { UbicacionesPage, MetroPage, ParquePage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, Dia5Page, DpoetasPage,PoetasPage, RedesPage, ClaustroPage, EstanquilloPage, CreacionPage, MuseoPage } from "../pages/index.paginas";
+//mapas
+
+import { AgmCoreModule } from '@agm/core';
 
 @NgModule({
   declarations: [
@@ -24,11 +27,20 @@ import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, Dia5Page, Dpoe
     DpoetasPage,
     PoetasPage,
     Dia5Page,
-    RedesPage
+    RedesPage,
+    ClaustroPage,
+    EstanquilloPage,
+    CreacionPage,
+    MuseoPage,
+    MetroPage,
+    ParquePage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDBDZ--NTZKUeQ4AdJkQ5d4_r0wdy98Hds'
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -43,7 +55,13 @@ import { UbicacionesPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, Dia5Page, Dpoe
     DpoetasPage,
     PoetasPage,
     Dia5Page,
-    RedesPage
+    RedesPage,
+    ClaustroPage,
+    EstanquilloPage,
+    CreacionPage,
+    MuseoPage,
+    MetroPage,
+    ParquePage
   ],
   providers: [
     StatusBar,

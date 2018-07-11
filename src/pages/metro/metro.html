@@ -1,18 +1,15 @@
-<!--
-  Generated template for the MetroPage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>metro</ion-title>
+  <ion-navbar color="circulo">
+    <ion-title>Metro Chabacano</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content>
+  <agm-map [latitude]="lat" [longitude]="lng" [zoom]="18">
+  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+</agm-map>
 </ion-content>

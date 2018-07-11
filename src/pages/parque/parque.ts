@@ -15,11 +15,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class ParquePage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
+  lat: number;
+  lng: number;
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ParquePage');
-  }
+
+constructor(public navCtrl: NavController, public navParams: NavParams) {
+
+  this.lat = 19.4118526;
+  this.lng = -99.1701581;
+}
 
 }
