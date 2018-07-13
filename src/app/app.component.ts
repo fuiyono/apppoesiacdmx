@@ -31,7 +31,7 @@ export class MyApp {
       { title: 'PROGRAMA', component: HomePage },
       { title: 'POETAS', component: PoetasPage },
       { title: 'SEDES', component: UbicacionesPage },
-      { title: 'RRSS Y SITIOS WEB', component: RedesPage }
+      { title: 'MEDIOS', component: RedesPage }
     ];
 
   }

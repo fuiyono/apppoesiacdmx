@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.poesiacdmx.push001" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>poesia</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+    <name>Poesía CDMX</name>
+    <description>App Encuentro de Poesía CDMX.</description>
+    <author email="encuadrante@gmail.com" href="https://carlosernestomillan.com">Carlos Ernesto Millán</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -76,6 +76,8 @@
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
         <splash height="2732" src="resources/ios/splash/Default@2x~universal~anyany.png" width="2732" />
     </platform>
+    <engine name="android" spec="^6.4.0" />
+    <engine name="ios" spec="^4.5.4" />
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <plugin name="cordova-plugin-ionic" spec="^4.1.7">
         <variable name="APP_ID" value="8592d69f" />
@@ -87,6 +89,4 @@
     <plugin name="cordova-plugin-splashscreen" spec="5.0.2" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
     <plugin name="onesignal-cordova-plugin" spec="^2.4.1" />
-    <engine name="android" spec="^6.4.0" />
-    <engine name="ios" spec="~4.4.0" />
 </widget>
