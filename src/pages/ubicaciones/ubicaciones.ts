@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { ClaustroPage, MuseoPage, ParquePage, CreacionPage, EstanquilloPage, MetroPage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, Dia5Page } from "../index.paginas";
+import { ClaustroPage, MuseoPage, ParquePage, CreacionPage, EstanquilloPage, MetroPage } from "../index.paginas";
 /**
  * Generated class for the UbicacionesPage page.
  *
