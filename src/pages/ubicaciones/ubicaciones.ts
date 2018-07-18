@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
-import { ClaustroPage, MuseoPage, ParquePage, CreacionPage, EstanquilloPage, MetroPage } from "../index.paginas";
+import { ClaustroPage, MuseoPage, ParquePage, CreacionPage, EstanquilloPage, MetroPage, BibliotecaPage, PenduloPage } from "../index.paginas";
 /**
  * Generated class for the UbicacionesPage page.
  *
@@ -22,6 +22,9 @@ export class UbicacionesPage {
   museoPage:any = MuseoPage;
   metroPage:any = MetroPage;
   parquePage:any = ParquePage;
+  bibliotecaPage:any = BibliotecaPage;
+  penduloPage:any = PenduloPage;
+
 
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {

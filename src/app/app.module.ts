@@ -11,7 +11,7 @@ import { HomePage } from '../pages/home/home';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
-import { UbicacionesPage, MetroPage, ParquePage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, Dia5Page, DpoetasPage,PoetasPage, RedesPage, ClaustroPage, EstanquilloPage, CreacionPage, MuseoPage } from "../pages/index.paginas";
+import { UbicacionesPage, MetroPage, ParquePage, Dia1Page, Dia2Page, Dia3Page, Dia4Page, Dia5Page, DpoetasPage,PoetasPage, RedesPage, ClaustroPage, EstanquilloPage, CreacionPage, MuseoPage, BibliotecaPage, PenduloPage } from "../pages/index.paginas";
 //mapas
 
 import { AgmCoreModule } from '@agm/core';
@@ -34,7 +34,9 @@ import { AgmCoreModule } from '@agm/core';
     CreacionPage,
     MuseoPage,
     MetroPage,
-    ParquePage
+    ParquePage,
+    BibliotecaPage,
+    PenduloPage
   ],
   imports: [
     BrowserModule,
@@ -61,7 +63,9 @@ import { AgmCoreModule } from '@agm/core';
     CreacionPage,
     MuseoPage,
     MetroPage,
-    ParquePage
+    ParquePage,
+    BibliotecaPage,
+    PenduloPage
   ],
   providers: [
     StatusBar,

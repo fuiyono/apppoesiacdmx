@@ -127,6 +127,14 @@ export class PoetasPage {
     semblanza: "Nació en Sydney en 1973. Poeta, editor y académico. Es director de la prestigiosa editorial Vagabond Press. Ha merecido distintas distinciones como el Mary Gilmore Award, el William Baylebridge Award y el Grace Leven Prize. Es autor de libros como The Imageless World (2003), Unanimous Night (2008), Autoethnographic (2012) y The earth here (2018). Su poesía ha sido traducida al francés, español, italiano, japonés, chino y vietnamita. Actualmente radica en Tokio.",
     foto: "assets/foto/brennan.jpg",
     reproduciendo: false
+  },
+  {
+    nombre: "Glenn Colquhoun",
+    imagen: "assets/poetas/glenn.jpg",
+    origen: "(Nueva Zelanda)",
+    semblanza: "Es médico, poeta y autor de libros para niños. Su primer libro de poesía, The art of walking upright (1999), fue considerado el Mejor Libro de Poesía en el Premio Montana de Nueva Zelanda en 2000. En 2003, su libro Playing God (2002) ganó el Montana New Zealand Book Award for Poetry and Readers’ Choice y en 2006 el New Zealand Booksellers Platinum Award por haber vendido cinco mil ejemplares. En 2004 se hizo merecedor del Glenn Schaeffer Prize in Modern Letters de Nueva Zelanda.",
+    foto: "assets/foto/glenn.jpg",
+    reproduciendo: false
   }
 ];
 

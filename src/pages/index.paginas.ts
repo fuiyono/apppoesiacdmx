@@ -13,3 +13,5 @@ export { CreacionPage } from "./creacion/creacion";
 export { MuseoPage } from "./museo/museo";
 export { MetroPage } from "./metro/metro";
 export { ParquePage } from "./parque/parque";
+export { BibliotecaPage } from "./biblioteca/biblioteca";
+export { PenduloPage } from "./pendulo/pendulo";
